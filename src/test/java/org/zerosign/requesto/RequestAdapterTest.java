@@ -1,5 +1,6 @@
 package org.zerosign.requesto;
 
+import org.junit.Ignore;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
@@ -10,6 +11,7 @@ import org.zerosign.requesto.impl.responses.StringResponse;
  * Created by zerosign on 19/04/14.
  */
 @RunWith(Theories.class)
+@Ignore
 public class RequestAdapterTest {
 
     /**
